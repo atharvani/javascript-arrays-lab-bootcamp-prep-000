@@ -10,7 +10,9 @@ function destructivelyAppendKitten(name)
 
 function destructivelyPrependKitten(name)
 {
-  kittens.unshift(name)
+  var kitty;
+  kitty = kittens.unshift(name)
+  console.log(kitty)
   return kittens;
 }
 
